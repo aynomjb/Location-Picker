@@ -7,3 +7,6 @@ google.maps.event.addDomListener(window, 'load', () => {
 	NewLocationPicker = new LocationPicker('searchTextField','map');
 });
 ~~~
+
+### Run
+Open the index.html in browser
