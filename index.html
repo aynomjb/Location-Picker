@@ -1,0 +1,22 @@
+
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+       /* Set the size of the div element that contains the map */
+    #map {
+      height: 80vh;  /* The height is 400 pixels */
+      width: 100vw;  /* The width is the width of the web page */
+     }
+</style>
+</head>
+<body>
+  <input id="searchTextField" type="text" size="50" style="height:70px;">
+  <button onclick="NewLocationPicker.setCurrentLocation()">set current location</button>
+  <h3>My Google Maps Demo</h3>
+  <div id="map"></div>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANwQZzlZ2Jy56NpGsaU-lwQZgCaeVz1X0&libraries=places&sensor=true"></script>
+  <script src="locationPicker.js"></script>
+</body>
+</html>
