@@ -1,4 +1,4 @@
-# Location-Picker-in-Javascript
+# Location-Picker-in-Javascript 
 ### Intializer
 ~~~
 let NewLocationPicker;
@@ -10,3 +10,6 @@ google.maps.event.addDomListener(window, 'load', () => {
 
 ### Run
 Open the index.html in browser
+
+## Demo open in mobile for accurate location
+https://aynomjb.github.io/Location-Picker-in-Javascript/
