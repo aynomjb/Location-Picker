@@ -1,4 +1,7 @@
-# Location-Picker-in-Javascript 
+# Location-Picker-in-Javascript
+* Place Autocomplete
+* Moveable marker
+
 ### Intializer
 ~~~
 let NewLocationPicker;
